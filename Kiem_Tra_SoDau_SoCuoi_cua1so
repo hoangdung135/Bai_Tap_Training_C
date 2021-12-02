@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+	
+int main(){
+	int n,x,socuoi,sodau;
+	scanf("%d",&n);
+	while (n--){
+		scanf("\n%d",&x);
+		socuoi = x%10;
+		while (x>=10){
+			x=x/10;					
+        }
+		if (x==socuoi){ printf("Yes\n");}
+		else { printf("No\n");}
+}
+}
